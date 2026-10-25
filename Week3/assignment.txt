@@ -22,4 +22,3 @@ TASKS (COVERS 3.1 TO 3.5):
 3.4 Use header, nav, main, section, article, aside and footer tags.
 3.5 Add a small blog post. Check your folder, then submit.
 
-================================================================================
