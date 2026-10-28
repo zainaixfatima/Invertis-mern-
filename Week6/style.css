@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: gilroy;
+
+}
+body{
+    background-color: rgb(223, 223, 223);
+    width: 100%;
+    height: 100%;
+}
+.hero h1{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: 250;
+    text-align: center;
+    height: 70px;
+    padding-top: 20px;
+    border-radius: 20px;
+
+}
+.box{
+    margin: 300px;
+    width: 500px;
+    box-sizing: border-box;
+    border: 2px solid rgb(17, 17, 255);
+    text-align: center;
+    background-color: white;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.card h2{
+    border-radius: 100%;
+background-color: rgb(47, 47, 238);
+color: white;
+font-size:60px ;
+font-weight: 400;
+width:130px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+}
+.card p{
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+.card h1{
+     font-size: 20px;
+    color: black;
+    font-weight: 800px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bio {
+    width: 400px;
+    height: 80px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: left;
+    font-size: 10px;
+    line-height: 1;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border: 50%;
+    margin-top: 20px;
+    margin-left:40px ;
+}
+.bio h1{
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 400px;
+    margin: 0;
+    padding-top: 5px;
+}
+.yellow{
+background-color:rgb(243, 217, 21) ;
+    position: fixed;
+    bottom: 10px;
+    right: 60px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: none;
+    font-weight: 600;
+    
+}
