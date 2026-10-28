@@ -79,7 +79,6 @@ div{
 }
 .hero label{
     font-size: 20px;
-
 }
 .hero button{
     background-color: #0875e1;
@@ -88,7 +87,5 @@ div{
     border:none;
      border-radius:10px ;
      margin-top: 10px;
-     cursor: pointer;
-
-                     
+     cursor: pointer;                  
 }
