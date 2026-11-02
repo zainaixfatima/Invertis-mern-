@@ -1,18 +1,14 @@
-/* Universal Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
 body {
     font-family: Arial, sans-serif;
     background-color: white;
     padding: 20px;
 }
-
-/* Main Dashboard */
 .dashboard {
     display: grid;
 
@@ -43,7 +39,6 @@ body {
     border-radius: 10px;
 }
 
-/* Sidebar */
 .sidebar {
     grid-area: side;
     background-color: #dbe5fa;
@@ -94,19 +89,13 @@ body {
 
     gap: 12px;
 }
-
-/* Icons */
 .card span {
     font-size: 30px;
 }
-
-/* Card Text */
 .card p {
     font-size: 16px;
     line-height: 19px;
 }
-
-/* Footer */
 .footer {
     grid-area: foot;
 
