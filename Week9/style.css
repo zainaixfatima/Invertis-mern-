@@ -33,3 +33,72 @@ nav.link a{
     font-size: 35px;
     text-decoration: none;
 }
+.main{
+    margin-left: 60px;
+    background-color:blue;
+    width: 90%;
+    height: 500px;
+    text-align: center;
+
+}
+.main h2{
+    padding-top: 40px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.main p{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+}
+.image {
+    background-color: rgb(149, 149, 255);
+    width: 80%;
+    max-width: 360px;
+    height: 250px;
+    border-radius: 10px;
+
+    margin: 20px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: rgb(8, 8, 56);
+    font-size: 14px;
+}
+
+.content{
+display: grid;
+grid-template-columns:repeat(3,1fr) ;
+gap: 30px;
+padding: 40px 30px;
+text-align: center;
+}
+.box{
+    background-color: rgb(227, 227, 227);
+padding: 20px;
+}
+.box h1{
+    color: rgb(62, 62, 146);
+}
+.box p{
+    color:black;
+    font-size: 15px;
+    font-weight: 300;
+}
+@media(max-width:756px){
+    .content{
+        grid-template-columns:1fr ;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
